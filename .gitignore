@@ -1,6 +1,14 @@
+# Игнорирование настроек IntelliJ IDEA
 .idea/
-target/
 *.iml
+
+# Игнорирование папки target (содержит скомпилированные файлы Maven)
+target/
+
+# Игнорирование временных и системных файлов
+*.class
+*.log
+
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
